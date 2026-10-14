@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Preferinte TV</title>
+<style>
+    table {
+        border-collapse: collapse;
+        border: 3px solid magenta;
+    }
+    th, td {
+        border: 2px solid magenta;
+        padding: 10px;
+        text-align: center;
+    }
+    th {
+        background-color: lightcyan; 
+    }
+    td {
+        background-color: #e6ffcc; 
+        color: brown;
+    }
+</style>
+</head>
+<body>
+<div style="background-color:Cornsilk">
+<a href="index.html">Acasa</a>
+<br>
+<a href="filme.html">Preferinte TV</a>
+<br>
+<a href="muzici.html">Preferinte muzicale</a>
+<br>
+<a href="../index.html">Laboratoarele mele</a>
+<br>
+<hr>
+</div>
+<div>
+<h1>Filme si seriale</h1>
+<table>
+  <!-- Rândul 1: Antetul (capul de tabel) -->
+  <tr>
+    <th></th> <!-- Celula din colț rămâne goală -->
+    <th>Anul</th>
+    <th>Genul</th>
+    <th>Titlul</th>
+  </tr>
+  <!-- Rândul 2: Primul film + celula extinsă -->
+  <tr>
+    <th rowspan="3">Filmele mele preferate</th> <!-- Prima coloană întinsă pe 3 rânduri -->
+    <td>2014</td>
+    <td>Sci-Fi</td>
+    <td>Interstellar</td>
+  </tr>
+  <!-- Rândul 3: Al doilea film -->
+  <tr>
+    <td>2010</td>
+    <td>Thriller</td>
+    <td>Inception</td>
+  </tr>
+  <!-- Rândul 4: Al treilea film -->
+  <tr>
+    <td>2008</td>
+    <td>Acțiune</td>
+    <td>The Dark Knight</td>
+  </tr>
+</table>
+</div>
+</body>
+</html>
